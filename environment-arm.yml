@@ -1,0 +1,44 @@
+name: resquator_pl_1
+channels:
+  - defaults
+  - conda-forge
+  - fastai
+  - apple
+dependencies:
+  - python=3.8
+  - cython
+  - pip
+  - jupyter
+  - jupyterlab==3.1.*
+  - ipykernel>=6
+  - jupyterlab-git
+  - graphviz  
+  - seaborn
+  - matplotlib
+  - bokeh
+  - tensorflow-deps
+  - pip:
+    - numpy
+    - pyarrow
+    - pandas
+    - beautifulsoup4
+    - scrapy
+    - click
+    - nbdev
+    - mapie
+    - networkx
+    - scipy
+    - scikit-network
+    - tensorflow-probability
+    - tqdm
+    - xgboost
+    - flask
+
+
+
+
+
+
+
+    
+
